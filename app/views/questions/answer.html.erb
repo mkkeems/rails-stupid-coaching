@@ -1,0 +1,11 @@
+<div class="answers">
+  <div class = "your-question">
+    <p><%=@question%></p>
+    <p><em>- You</em></p>
+  </div>
+  <div class= "coach-response">
+    <p><strong><%=@answer%></strong></p>
+    <p><em>- Your coach</em></p>
+  </div>
+  <%= link_to "Ask another question", "/ask" %>
+</div>
